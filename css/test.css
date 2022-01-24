@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(211, 198, 198);
+
+
+}
+
+h1{
+    font-size: 30px;
+    color: #29691c;
+}
+
+h2{
+    font-size: 20px;
+    color: #211969;
+}
+
+.big{
+    font-size: 60px;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+
+}
+
+.big.uppercase{
+    color: pink;
+
+}
+
+h1 span{
+    color: magenta;
+
+}
