@@ -9,7 +9,7 @@ header{
     background-color: #172e44;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 h1, h2{
@@ -23,6 +23,7 @@ h1, h2{
 header h1{
     color: white;
     font-size: 50px;
+    padding-top: 10px;
 
 }
 
@@ -87,3 +88,89 @@ p.caption{
     margin-top: 0px;
 
 }
+
+
+
+/* this is all unstable code I am trying out */
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.hero{
+    width: 80%;
+    height: 1250px;
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+    
+}
+
+.btn-box{
+display: flex;
+border-bottom: 1px solid #172e44;
+}
+
+.btn-box button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-box .fas{
+    margin-right: 5px;
+}
+
+.btn-box button:hover .fas{
+    color: #172e44;
+}
+
+.btn-box .far{
+    margin-right: 5px;
+}
+
+.btn-box button:hover .far{
+    color: #172e44;
+}
+
+
+.content{
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+#content1{
+    transform: translateX(0px);
+}
+
+#btn1{
+    color: #172e44;
+}
+
+/*
+.content-left {
+    flex-basis: 50%;
+}
+
+.content-right {
+    flex-basis: 50%;
+
+
+}
+
+.content-right img{
+    width: 350px;
+
+}
+*/

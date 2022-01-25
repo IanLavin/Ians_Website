@@ -6,6 +6,8 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/formatting.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
 
 </head>
 <body>
@@ -17,6 +19,103 @@
 
     <!-- Main element-->
     <main>
+        <!-- This is where the unstable code i am trying is being inserted-->
+        <div class='hero'>
+            <div class="btn-box">
+                <button id="btn1" onclick="open1()"> <i class="far fa-user-circle"></i> About Me</button>
+                <button id="btn2" onclick="open2()"> <i class="fas fa-brain"></i> Interests</button>
+                <button id="btn3" onclick="open3()"> <i class="fas fa-tools"></i> Current Projects </button>
+            </div>
+            <div id="content1" class="content">
+                <h1>About Me</h1>
+                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    </p>
+                <img src="img/Ian-Hydro.jpg">
+
+                </div>
+
+            <div id="content2" class="content">
+                <h1>Interests</h1>
+                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLERyeasdfasdfasdjflasdjleakdfgjadldfmal;sdfjasd;lfmkasdf 
+                    </p>
+                <img src="img/Ian-Hydro.jpg">
+    
+                </div>
+            <div id="content3" class="content">
+                <h1>Current Projects</h1>
+                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER kladfghjgfalkdfghjsdlkfgjhsdlkfgjsdlkfgjsdlf;kgjsdflgjsdfgnsdfklgnILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    </p>
+                <img src="img/Ian-Hydro.jpg">
+        
+                </div>
+
+        </div>
+
+        <script>
+            var content1 = document.getElementById("content1")
+            var content2 = document.getElementById("content2")
+            var content3 = document.getElementById("content3")
+            var btn1 = document.getElementById("btn1");
+            var btn2 = document.getElementById("btn2");
+            var btn3 = document.getElementById("btn3");
+
+            function open1(){
+                content1.style.transform = "translateX(0)";
+                content2.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(100%)";
+                btn1.style.color = "#172e44";
+                btn2.style.color = "#000";
+                btn3.style.color = "#000";
+                content1.style.transitionDelay = "0.3s";
+                content2.style.transitionDelay = "0s";
+                content3.style.transitionDelay = "0s";
+            }
+
+            function open2(){
+                content1.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(0)";
+                content3.style.transform = "translateX(100%)";
+                btn1.style.color = "#000";
+                btn2.style.color = "#172e44";
+                btn3.style.color = "#000";
+                content1.style.transitionDelay = "0s";
+                content2.style.transitionDelay = "0.3s";
+                content3.style.transitionDelay = "0s";
+            }
+
+            function open3(){
+                content1.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(0)";
+                btn1.style.color = "#000";
+                btn2.style.color = "#000";
+                btn3.style.color = "#172e44";
+                content1.style.transitionDelay = "0s";
+                content2.style.transitionDelay = "0s";
+                content3.style.transitionDelay = "0.3s";
+            }
+
+        </script>
+
+
+        <!-- this is where the unstable code i inserted ends-->
+
+
+
+
+
+
         <h2>About Ian
 
         </h2>
@@ -45,6 +144,8 @@
             <li><a target="_blank" href="https://en.wikipedia.org/wiki/Northeast_Conference_on_Science_and_Skepticism"> Cynthia </a></li>
             <li><a target="_blank" href="https://en.wikipedia.org/wiki/Northeast_Conference_on_Science_and_Skepticism"> Jack </a></li>
         </ul>
+
+        
     </main>
 
     <!-- Footer element-->
