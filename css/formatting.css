@@ -14,7 +14,9 @@ header{
 
 h1, h2{
     font-family: 'Raleway', sans-serif;
-
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 50px;
 
 }
 
@@ -35,13 +37,13 @@ header img{
 }
 
 main{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px 20px;
 }
 
 main img{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 h2{
@@ -64,12 +66,12 @@ footer{
     background-color: #172e44;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 7px;
 
 }
 
 footer p{
-
+    font-size: 17px;
     margin: 0px;
 }
 
@@ -91,8 +93,6 @@ p.caption{
 
 
 
-/* this is all unstable code I am trying out */
-
 *{
     padding: 0;
     margin: 0;
@@ -100,8 +100,8 @@ p.caption{
 }
 
 .hero{
-    width: 80%;
-    height: 1250px;
+    width: 90%;
+    height: 1500px;
     position: relative;
     margin: 0px auto;
     overflow: hidden;
@@ -119,8 +119,8 @@ border-bottom: 1px solid #172e44;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    margin-right: 50px;
-    font-size: 20px;
+    margin-right: 60px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ border-bottom: 1px solid #172e44;
 .content{
     justify-content: center;
     align-items: center;
-    margin: 5% auto;
+    margin: 2% auto;
     position: absolute;
     transform: translateX(100%);
     transition: 0.3s;
@@ -157,20 +157,3 @@ border-bottom: 1px solid #172e44;
 #btn1{
     color: #172e44;
 }
-
-/*
-.content-left {
-    flex-basis: 50%;
-}
-
-.content-right {
-    flex-basis: 50%;
-
-
-}
-
-.content-right img{
-    width: 350px;
-
-}
-*/

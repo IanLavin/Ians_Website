@@ -19,21 +19,27 @@
 
     <!-- Main element-->
     <main>
-        <!-- This is where the unstable code i am trying is being inserted-->
+    
         <div class='hero'>
             <div class="btn-box">
-                <button id="btn1" onclick="open1()"> <i class="far fa-user-circle"></i> About Me</button>
+                <button id="btn1" onclick="open1()"> <i class="fas fa-user-circle"></i> About Me</button>
                 <button id="btn2" onclick="open2()"> <i class="fas fa-brain"></i> Interests</button>
-                <button id="btn3" onclick="open3()"> <i class="fas fa-tools"></i> Current Projects </button>
+                <button id="btn3" onclick="open3()"> <i class="fas fa-tools"></i> Projects </button>
+                <button id="btn4" onclick="open4()"> <i class="far fa-list-alt"></i> Resume/CV </button>
+                <button id="btn5" onclick="open5()"> <i class="fas fa-inbox"></i> Contact </button>
             </div>
             <div id="content1" class="content">
                 <h1>About Me</h1>
-                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
-                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
-                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
-                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
-                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
-                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ultrices vitae auctor eu augue. Nulla facilisi morbi tempus 
+                    iaculis urna id. Nibh tellus molestie nunc non blandit massa enim nec. Nunc congue nisi vitae suscipit.
+                     Orci phasellus egestas tellus rutrum tellus pellentesque eu. Quam elementum pulvinar etiam non.
+                      Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Enim nulla aliquet porttitor
+                    lacus luctus accumsan tortor posuere ac. Sagittis vitae et leo duis ut diam quam nulla porttitor. Orci 
+                    eu lobortis elementum nibh tellus molestie. Lacus laoreet non curabitur gravida arcu ac. Pellentesque 
+                    habitant morbi tristique senectus. Ornare suspendisse sed nisi lacus sed viverra tellus in. Sed blandit
+                     libero volutpat sed cras ornare arcu dui vivamus. A lacus vestibulum sed arcu non odio euismod. Sagittis
+                      purus sit amet volutpat consequat. Eu augue ut lectus arcu bibendum.
                     </p>
                 <img src="img/Ian-Hydro.jpg">
 
@@ -57,8 +63,32 @@
                     FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
                     </p>
                 <img src="img/Ian-Hydro.jpg">
+
+            </div>
+
+            <div id="content4" class="content">
+                <h1>CV</h1>
+                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER kladfghjgfalkdfghjsdlkfgjhsdlkfgjsdlkfgjsdlf;kgjsdflgjsdfgnsdfklgnILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    </p>
+                <img src="img/Ian-Hydro.jpg">
+            
         
-                </div>
+            </div>
+
+            <div id="content5" class="content">
+                <h1>Contact</h1>
+                <p> FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER kladfghjgfalkdfghjsdlkfgjhsdlkfgjsdlkfgjsdlf;kgjsdflgjsdfgnsdfklgnILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER FILLER 
+                    </p>
+                <img src="img/Ian-Hydro.jpg">
+            
+        
+            </div>
 
         </div>
 
@@ -66,67 +96,111 @@
             var content1 = document.getElementById("content1")
             var content2 = document.getElementById("content2")
             var content3 = document.getElementById("content3")
+            var content4 = document.getElementById("content4")
+            var content5 = document.getElementById("content5")
             var btn1 = document.getElementById("btn1");
             var btn2 = document.getElementById("btn2");
             var btn3 = document.getElementById("btn3");
+            var btn4 = document.getElementById("btn4");
+            var btn5 = document.getElementById("btn5");
 
             function open1(){
                 content1.style.transform = "translateX(0)";
-                content2.style.transform = "translateX(100%)";
-                content3.style.transform = "translateX(100%)";
+                content2.style.transform = "translateX(105%)";
+                content3.style.transform = "translateX(105%)";
+                content4.style.transform = "translateX(105%)";
+                content5.style.transform = "translateX(105%)";
                 btn1.style.color = "#172e44";
                 btn2.style.color = "#000";
                 btn3.style.color = "#000";
-                content1.style.transitionDelay = "0.3s";
+                btn4.style.color = "#000";
+                btn5.style.color = "#000";
+                content1.style.transitionDelay = "0.4s";
                 content2.style.transitionDelay = "0s";
                 content3.style.transitionDelay = "0s";
+                content4.style.transitionDelay = "0s";
+                content5.style.transitionDelay = "0s";
             }
 
             function open2(){
-                content1.style.transform = "translateX(100%)";
+                content1.style.transform = "translateX(105%)";
                 content2.style.transform = "translateX(0)";
-                content3.style.transform = "translateX(100%)";
+                content3.style.transform = "translateX(105%)";
+                content4.style.transform = "translateX(105%)";
+                content5.style.transform = "translateX(105%)";
                 btn1.style.color = "#000";
                 btn2.style.color = "#172e44";
                 btn3.style.color = "#000";
+                btn4.style.color = "#000";
+                btn5.style.color = "#000";
                 content1.style.transitionDelay = "0s";
                 content2.style.transitionDelay = "0.3s";
                 content3.style.transitionDelay = "0s";
+                content4.style.transitionDelay = "0s";
+                content5.style.transitionDelay = "0s";
             }
 
             function open3(){
-                content1.style.transform = "translateX(100%)";
-                content2.style.transform = "translateX(100%)";
+                content1.style.transform = "translateX(105%)";
+                content2.style.transform = "translateX(105%)";
                 content3.style.transform = "translateX(0)";
+                content4.style.transform = "translateX(105%)";
+                content5.style.transform = "translateX(105%)";
                 btn1.style.color = "#000";
                 btn2.style.color = "#000";
                 btn3.style.color = "#172e44";
+                btn4.style.color = "#000";
+                btn5.style.color = "#000";
                 content1.style.transitionDelay = "0s";
                 content2.style.transitionDelay = "0s";
                 content3.style.transitionDelay = "0.3s";
+                content4.style.transitionDelay = "0s";
+                content5.style.transitionDelay = "0s";
+            }
+
+            function open4(){
+                content1.style.transform = "translateX(105%)";
+                content2.style.transform = "translateX(105%)";
+                content3.style.transform = "translateX(105%)";
+                content4.style.transform = "translateX(0%)";
+                content5.style.transform = "translateX(105%)";
+                btn1.style.color = "#000";
+                btn2.style.color = "#000";
+                btn3.style.color = "#000";
+                btn4.style.color = "#172e44";
+                btn5.style.color = "#000";
+                content1.style.transitionDelay = "0s";
+                content2.style.transitionDelay = "0s";
+                content3.style.transitionDelay = "0s";
+                content4.style.transitionDelay = "0.3s";
+                content5.style.transitionDelay = "0s";
+            }
+
+            function open5(){
+                content1.style.transform = "translateX(105%)";
+                content2.style.transform = "translateX(105%)";
+                content3.style.transform = "translateX(105%)";
+                content4.style.transform = "translateX(105%)";
+                content5.style.transform = "translateX(0%)";
+                btn1.style.color = "#000";
+                btn2.style.color = "#000";
+                btn3.style.color = "#000";
+                btn4.style.color = "#000";
+                btn5.style.color = "#172e44";
+                content1.style.transitionDelay = "0s";
+                content2.style.transitionDelay = "0s";
+                content3.style.transitionDelay = "0s";
+                content4.style.transitionDelay = "0s";
+                content5.style.transitionDelay = "0.3s";
             }
 
         </script>
 
-
-        <!-- this is where the unstable code i inserted ends-->
-
-
-
-
-
-
-        <h2>About Ian
-
-        </h2>
-        <p> This is where i will put my about me section. Filler Filler Filler FillerFillerFiller Filler Filler FillerFillerFiller Filler Filler
-
-        </p>
-        <img src="img/Ian-Hydro.jpg">
-
+        <!--  
         <p class="caption">Ian Leading the hydroponic club</p>
         
-        <!-- Characteristics-->
+         Characteristics
+         
         <h2>Ians Characteristics</h2>
         <ol> 
             <li> He likes to go for runs</li>
@@ -134,7 +208,8 @@
             <li>He loves to play music </li>
         </ol>
 
-        <!-- Friends-->
+         Friends
+
         <h2>Ians Friends </h2>
         <p> Ian has some awesome friends. They are spread out across utah and idaho. Click on the links below to find out more. </p>
 
@@ -144,6 +219,8 @@
             <li><a target="_blank" href="https://en.wikipedia.org/wiki/Northeast_Conference_on_Science_and_Skepticism"> Cynthia </a></li>
             <li><a target="_blank" href="https://en.wikipedia.org/wiki/Northeast_Conference_on_Science_and_Skepticism"> Jack </a></li>
         </ul>
+
+        -->
 
         
     </main>
