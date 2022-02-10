@@ -61,6 +61,7 @@ h3{
     font-size: 30px;
     color: rgb(0, 0, 0);
     margin: 40px 0 10px;
+    padding-left: 20px;
 }
 
 /* Style information about my footer */
@@ -96,7 +97,7 @@ a:hover{
 
 .hero{
     width: 90%;
-    height: 1800px;
+    height: 2000px;
     position: relative;
     margin: 0px auto;
     overflow: hidden;  
@@ -163,10 +164,18 @@ main img{
     max-width: 90%;
 }
 
+/* Block height definition */
+#blockheight{
+    height: 500px;
+
+}
+
 /* This is to make images rounder with less harsh edges*/
 .rounded{
     border-radius: 7%;
     align-items: center;
+    width: 70%;
+    height: 70%;
   
 }
 
@@ -184,7 +193,7 @@ main img{
     position: relative;
     width: 50%;
     float: left;
-    height: 500px;
+    height: 2000px;
     z-index: 1010101010
 }
   
@@ -192,7 +201,7 @@ main img{
     position: relative;
     width: 50%;
     float: left;
-    height: 500px;
+    height: 2000px;
     z-index: 1010101010
 }
 
