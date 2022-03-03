@@ -226,8 +226,9 @@ main img{
     position: relative;
     width: 34%;
     float: left;
-    height: 300px;
-    z-index: 1010101010
+    height: 275px;
+    z-index: 1010101010;
+    margin-top: 25px;
 }
 
 
@@ -240,7 +241,7 @@ main img{
     position: relative;
     width: 50%;
     float: left;
-    height: 420px;
+    height: 750px;
     z-index: 1010101010
 }
   
@@ -248,8 +249,10 @@ main img{
     position: relative;
     width: 50%;
     float: left;
-    height: 420px;
-    z-index: 1010101010}
+    height: 750px;
+    z-index: 1010101010;
+
+}
 
 #leftthird {
     position: relative;
@@ -263,6 +266,41 @@ main img{
     position: relative;
     width: 50%;
     float: left;
-    height: 600px;
+    height: 500px;
     z-index: 1010101010;
+    margin-top: 100px;
+    }
+
+
+
+#leftchunk {
+    position: relative;
+    width: 33%;
+    float: left;
+    height: 450px;
+    z-index: 1010101010;
+    padding-top: 50px;
+    }
+          
+#centerchunk {
+    position: relative;
+    width: 33%;
+    float: left;
+    height: 450px;
+    z-index: 1010101010;
+    padding-top: 50px;
+    }
+
+#rightchunk {
+    position: relative;
+    width: 33%;    
+    float: left;
+    height: 450px;    
+    z-index: 1010101010;
+    padding-top: 50px;
+    }
+    
+    .tall{
+        height: 450px;
+        
     }
