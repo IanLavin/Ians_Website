@@ -196,11 +196,11 @@
                 </div>  
 
                 <div id = "rightthird">
-                        <img src="img/IMG_5157.jpg" class = "rounded center">
+                        <img src="img/IMG_5157.jpg" class = "rounded center taller">
                 </div>
 
                 <div id = "rightthird">
-                    <img src="img/module.jpg" class = "rounded center">
+                    <img src="img/module.jpg" class = "rounded center taller">
                 </div>
 
                 <div id = "leftthird">
@@ -217,12 +217,18 @@
                
 
                 <div id = "leftthird">
-                    <h3>Project 3 </h3>
-                    <p> This section still needs to be completed. </p> 
+                    <h3>Spiking Neural Network Cache Prefetcher </h3>
+                    <p> As part of my research, a major ongoing project for me has been the design and testing of a spiking neural network based cache prefetcher.
+                        Spiking Neural Networks are a subset of deep neural networks whose design seeks to more closely emulate the function of naturally occuring biological
+                        neural networks. These networks posses a number of benefits including reduced training data required and online learning of the network. This makes them
+                        well suited for the complex task of cache prefetching. Our current model consists of a rate-based network utilized to predict delta offset values from
+                        current memory addresses. Recent simulations performed in the ChampSim trace based simulator have shown that the network is able to achive relativly high
+                        accuracies on traces within the SPEC17 and SPEC06 benchmark suites. Working is continuing to be preformed to compare these preliminary results against 
+                        current industry standard prefetchers.   </p> 
                 </div>
                 
                 <div id = "rightthird">
-                    <img src="img/Ian-Hydro.jpg" class = "rounded center">
+                    <img src="img/Neural-Networks.jpg" class = "rounded center taller">
                 </div>
 
 
@@ -237,20 +243,32 @@
             <!-- The section with my contact information-->
             <div id="content5" class="content">
                 <h1>Contact</h1>
-                <div id = "center"><h2>Thanks for visiting my website! If you want to get in contact with me my information is listed below. </h2></div>
+                <div id = "center">
+                    <h2>Thanks for visiting my website! If you want to get in contact with me feel free to fill out the form below! </h2>
+                </div>
                 
-                <!-- split the content of this section into a left and right section-->
-                <div id = "left">
-                    <h3>Linked In - <a href="https://www.linkedin.com/in/ian-lavin/"> www.linkedin.com/in/ian-lavin</a> </h3>
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="First Name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+                  
+                      <label for="eml">Email</label>
+                      <input type="text" id="eml" name="emailin" placeholder="Email..">
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write here.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
 
-                    <h3>Email - <a href="ianlavin1279@gmail.com"> ianlavin1279@gmail.com</a> </h3>
 
-
-                </div>
-
-                <div id = "right">
-                    <img src="img/about.jpg" class = "rounded center">
-                </div>
+                
             </div>
         </div>
 
